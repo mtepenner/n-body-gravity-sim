@@ -1,0 +1,20 @@
+[
+  {
+    "id": "earth",
+    "name": "Earth",
+    "mass": 5.972e24,
+    "radius": 6371000,
+    "position": [0, 0, 0],
+    "velocity": [0, 0, 0],
+    "color": "#2b82c9"
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "mass": 7.342e22,
+    "radius": 1737000,
+    "position": [384400000, 0, 0],
+    "velocity": [0, 1022, 0],
+    "color": "#cccccc"
+  }
+]
