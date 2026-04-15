@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sun",
+    "name": "Sun",
+    "mass": 1.989e30,
+    "radius": 696340000,
+    "position": [0, 0, 0],
+    "velocity": [0, 0, 0],
+    "color": "#ffcc00"
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "mass": 3.301e23,
+    "radius": 2439700,
+    "position": [57900000000, 0, 0],
+    "velocity": [0, 47360, 0],
+    "color": "#a8a8a8"
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "mass": 4.867e24,
+    "radius": 6051800,
+    "position": [108200000000, 0, 0],
+    "velocity": [0, 35020, 0],
+    "color": "#e0c9a6"
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "mass": 5.972e24,
+    "radius": 6371000,
+    "position": [149600000000, 0, 0],
+    "velocity": [0, 29780, 0],
+    "color": "#2b82c9"
+  }
+]
