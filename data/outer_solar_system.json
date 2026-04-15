@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mars",
+    "name": "Mars",
+    "mass": 6.39e23,
+    "radius": 3389500,
+    "position": [227900000000, 0, 0],
+    "velocity": [0, 24070, 0],
+    "color": "#c1440e"
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "mass": 1.898e27,
+    "radius": 69911000,
+    "position": [778500000000, 0, 0],
+    "velocity": [0, 13070, 0],
+    "color": "#e3dccb"
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "mass": 5.683e26,
+    "radius": 58232000,
+    "position": [1432000000000, 0, 0],
+    "velocity": [0, 9680, 0],
+    "color": "#e2bf7d"
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "mass": 8.681e25,
+    "radius": 25362000,
+    "position": [2867000000000, 0, 0],
+    "velocity": [0, 6800, 0],
+    "color": "#c6d3e3"
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "mass": 1.024e26,
+    "radius": 24622000,
+    "position": [4515000000000, 0, 0],
+    "velocity": [0, 5430, 0],
+    "color": "#4b70dd"
+  }
+]
