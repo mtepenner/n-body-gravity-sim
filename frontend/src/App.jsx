@@ -34,10 +34,15 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (isPlaying) {
-      const interval = setInterval(tick, 16); // Poll API roughly at 60fps
-      return () => clearInterval(interval);
-    }
+    let timeoutId;
+    const loop = async () => {
+      if (isPlaying) {
+        await tick(); // Wait for the backend to finish
+        timeoutId = setTimeout(loop, 16); // Then wait 16ms before asking again
+      }
+    };
+    loop();
+    return () => clearTimeout(timeoutId);
   }, [isPlaying, dt]);
 
   return (
