@@ -23,9 +23,9 @@ def test_rk4_circular_orbit_stability():
     ])
     masses = np.array([M_central, m_orbiting])
     
-    dt = 60.0  # 1 minute time step
+    dt = 5.0  # 5 second time step (~154 steps/orbit for this setup)
     
-    # Act: Run the simulation for 1000 steps (about 16 hours)
+    # Act: Run the simulation for 1000 steps (~83 minutes, ~6.5 orbits)
     for _ in range(1000):
         positions, velocities = step_rk4(positions, velocities, masses, dt)
         
